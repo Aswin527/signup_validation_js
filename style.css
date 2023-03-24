@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #9b59b6;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-form{
+    margin-top: 100px;
+    height: 500px;
+    width: 300px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.heading{
+    padding: 25px 20px 0px;
+    height: 50px;
+    width: 260px;
+    background: #f8f6f8;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.form-content{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;    
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;    
+}
+
+.username label{
+    font-size: 14px;
+    
+}
+
+.username .username-box{
+    outline: none;
+    height: 30px;
+    border: 1px solid #676767 ;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.username .username-box::after{
+    border: 1px solid red ;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;    
+}
+
+.email label{
+    font-size: 14px;
+    
+}
+
+.email .email-box{
+    outline: none;
+    border: 1px solid #676767 ;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;    
+}
+
+.password label{
+    font-size: 14px;
+    
+}
+
+.password .password-box{
+    outline: none;
+    border: 1px solid #676767 ;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.confirm-pass{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;    
+}
+
+.confirm-pass label{
+    font-size: 14px;
+    
+    padding-left: 0px;
+}
+
+.confirm-pass .confirm-box{
+    outline: none;
+    border: 1px solid #676767 ;
+    height: 30px;
+    width: 255px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.form-content .submit-button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.signup-val .submit-btn{
+    height: 40px;
+    width: 86%;
+    background: #9b59b6;
+    color: #fff;
+    outline: none;
+    border: 1px solid #9b59b6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-content span{
+    height: 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="signup-form">
+            <div class="heading">
+                <h3>Create Account</h3>
+            </div>
+            <div class="form-content">
+                <form name="signup-page" class="signup-val">
+                    <div class="username">
+                        <label>Username</label>
+                        <input type="text" class="username-box" id="username-val" placeholder="Aswin">
+                        <span id="username-chk"></span>
+                    </div>
+                    <div class="email">
+                        <label>Email</label>
+                        <input type="text" class="email-box" id="email-val" placeholder="aswin@email.com">
+                        <span id="email-chk"></span>
+                    </div>
+                    <div class="password">
+                        <label>Password</label>
+                        <input type="password" class="password-box" id="password-val" placeholder="Password">
+                        <span id="password-chk"></span>
+                    </div>
+                    <div class="confirm-pass">
+                        <label>Password Check</label>
+                        <input type="password" class="confirm-box" id="confirm-pass-val" placeholder="Password two">
+                        <span id="confirm-chk"></span>
+                    </div>
+                    <div class="submit-button">
+                        <input type="submit" name="submit" value="Submit" class="submit-btn" onclick="return checkValidation()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
